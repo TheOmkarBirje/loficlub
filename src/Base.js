@@ -10,7 +10,7 @@ const Base = ({ children, isFullScreen, setIsFullScreen, bgGif, setBgGif }) => {
   let history = useHistory();
 
   const twitterLink =
-    "https://twitter.com/intent/tweet?text=Check%20out%20loficlub.now.sh%20by%20@SavioMartin7%E2%9A%A1%EF%B8%8F%0D%0A%0AThe%20best%20place%20to%20enjoy%20Hip%20hop%20beats%20to%20Relax%20or%20Study!%20%F0%9F%8E%A7%20Give%20it%20a%20try!%20You%27ll%20love%20it!%20%F0%9F%94%A5%0D%0A%0A%23lofi%20%23chillbeats";
+    "https://twitter.com/intent/tweet?text=Check%20out%20lofi.host%20from%20@minimalcapital7%E2%9A%A1%EF%B8%8F%0D%0A%0AThe%20best%20place%20to%20enjoy%20Hip%20hop%20beats%20to%20Relax%20or%20Study!%20%F0%9F%8E%A7%20Give%20it%20a%20try!%20You%27ll%20love%20it!%20%F0%9F%94%A5%0D%0A%0A%23lofi%20%23chillbeats";
 
   useHotkeys("alt+k", () => history.push("/keyboard-shortcuts"));
   useHotkeys("alt+t", () => window.open(twitterLink));
@@ -49,14 +49,14 @@ const Base = ({ children, isFullScreen, setIsFullScreen, bgGif, setBgGif }) => {
           {children}
         </div>
         <h4 className="text-left w-[90%] text-lg mt-1">
-          Built with 💖 by
+          From
           <a
-            href="https://twitter.com/saviomartin7"
+            href="https://twitter.com/minimalcapital"
             target="_blank"
             rel="noreferrer"
             className="ml-1 hover:underline hover:text-[#4CD2D6]"
           >
-            Savio Martin
+            Minimal
           </a>
         </h4>
       </div>
