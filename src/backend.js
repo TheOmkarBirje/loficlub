@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCcq_ehL1S1ybwZ_KPSs_2r_mb3VRUvSUA",
-  authDomain: "lofi-chat.firebaseapp.com",
-  projectId: "lofi-chat",
-  storageBucket: "lofi-chat.appspot.com",
-  messagingSenderId: "877788630630",
-  appId: "1:877788630630:web:11c720c92827449ebbe7a7",
-  measurementId: "G-FRL5E54HR8",
+  apiKey: "AIzaSyDExvhk5hA-A6y90KFpHPHR4cQrLKdi36s",
+  authDomain: "lofihost-63550.firebaseapp.com",
+  projectId: "lofihost-63550",
+  storageBucket: "lofihost-63550.appspot.com",
+  messagingSenderId: "768633149696",
+  appId: "1:768633149696:web:41bfd6c59395460dcdfbe5",
+  measurementId: "G-74K47B7WX4",
 };
 
 firebase.initializeApp(firebaseConfig);
